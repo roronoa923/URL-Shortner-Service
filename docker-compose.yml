@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:17.4
+    restart: always
+    ports:
+     - 6432:5432
+    environment:
+      POSTGRES_PASSWORD: Mayank007%
+      POSTGRES_USER: postgres
+      POSTGRES_DATABASE: postgres
+    volumes:
+      - db_data:/var/lib/postgressql/data
+volumes:
+  db_data:

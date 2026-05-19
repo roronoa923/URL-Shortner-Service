@@ -1,0 +1,26 @@
+{
+  "name": "url-shortner-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "drizzle-kit": "^0.31.9",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "nanoid": "^5.1.11",
+    "pg": "^8.18.0",
+    "zod": "^4.3.6"
+  }
+}
